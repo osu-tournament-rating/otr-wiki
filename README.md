@@ -6,9 +6,9 @@ A fully-featured rating system for osu! tournaments.
 ### Contributing
 - [Contribution Wiki](contribution/README.md)
 
+### Rating
+- [Rating Algorithm Wiki](algorithm/README.md)
+
 ### Software
 - [API Wiki](api/README.md)
 - [Rating Processor Wiki](processor/README.md)
-
-### Rating
-- [Rating Algorithm Wiki](algorithm/README.md)
