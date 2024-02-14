@@ -1,2 +1,24 @@
-# otr-wiki
-Wiki for all things o!TR
+# o!TR
+---
+
+## What is o!TR?
+The goal of o!TR (osu! Tournament Rating) is to measure relative performance in osu! tournaments across different rank ranges. osu! is unusual among competitive games in its thriving rank-restricted tournament scene, which encourages "sandbaggers" and "derankers" to deflate their rank and play in tournaments intended for a lower skill level. o!TR assigns a numerical rating to each player, with higher ratings indicating better performance in matches. This rating may be used for manual screening (to level the playing field) or simply for players to keep track of their improvement in tournaments over time.
+
+Please note that **rating systems do not reflect exact skill**, and there are subtleties and competing factors that go into any such system. We do not aim to answer the question of "who the best osu! tournament player is" and instead wish to help players interpret performance history. Because of this, *do not interpret a higher rating only as "being a better player,"* and remember that playing in more matches will improve the accuracy of your o!TR. If you have any questions not answered by this FAQ, feel free to join the [o!TR Discord](https://discord.gg/R53AwX2tJA) and a member of the staff will help you out!
+
+## How does o!TR differ from other third-party projects like Elitebotix or Skill Issue?
+**Both Elitebotix and Skill Issue are excellent tools**, and you should use all of them for their own merits! In fact, o!TR takes inspiration from both systems and takes inspiration from the same algorithm as Skill Issue for calculating ratings. Qualitatively, the **primary differences** of o!TR are the following:
+
+1. **Active maintenance and match processing**: To ensure validity of competitive data, tournament matches are only counted after match links are manually approved. Qualifier lobbies, tryouts, and scrimmages are not counted, and anyone can submit requests to add tournaments, remove warmups, and so on.
+
+The idea here is that **rating is only affected by actual competitive play** in a valid tournament (and if you notice a match/map missing or mistakenly added, you will be able to request fixes to that!), so artificial inflation or deflation is much harder than deranking a play in solo or setting up an MP lobby to alter calculations. This means that you would have to intentionally influence the outcome of a match to change your o!TR.
+
+2. **Website interactivity**: All collected match data and rating history is accessible via a website, and various statistics and graphs about your performance are viewable. In particular, you'll be able to see how you performed relative to others in each match and how that affects your rating. Other features include leaderboards (global, country, by rank range, from a specified list of players, etc.), tournament and match-specific statistics, information about your own performance across mods, and so on. The website is also where you can submit (old or recent) tournament data to be counted in the o!TR calculations.
+
+3. **Fundamental interpretation**: ETX estimates a *star rating* level that you can play comfortably, and SIP measures *relative skill* across various skillsets. o!TR is intended specifically to *gauge competitive performance*, though again, SIP uses a similar algorithm and is more useful for answering questions more specific to head-to-head matchups. In contrast to ETX and SIP, o!TR **intentionally does not take map difficulty into account,** which may be particularly useful for observation. Specifically, a player with a significantly higher o!TR ranking compared to ETX or SIP is likely **playing in tournaments below their skill level.**
+
+4. **Open source code**: o!TR is open source and communicates all algorithm changes publicly, meanig it can be used for screening in badged tournaments. A web-based screening utility to assist with sensible rating screening procedures is in development.
+
+5. **Support for other gamemodes**: Our rating formulas and submission processes are just as usable in taiko, catch, and mania as in osu!std. (However, osu!mania has its own far more robust skillbanning system in place already which is far superior for screening; mania players, perhaps you'll just find the general statistics interesting.)
+
+Please note that **your past rating history may frequently change** (as the rating algorithm is tweaked, new matches are approved, etc.) even if you don't play any new matches. Thus, the rating graph should be viewed as a general trend, not an absolute measurement of your performance at every given time. For the sake of allowing o!TR to be used for screening, though, o!TR will update ratings at regular times. See the [[ratings calculation|ratings]] page of this wiki for more details!
