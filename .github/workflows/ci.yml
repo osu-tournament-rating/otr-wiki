@@ -1,0 +1,29 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Continuous Integration
+
+on:
+  pull_request:
+    branches:
+      - master
+    types:
+      - opened
+      - reopened
+      - edited
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  lint:
+    name: Markdown Lint
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - uses: articulate/actions-markdownlint@v1
+        with:
+          config: markdownlint-config.json
+          files: 'docs/**/*.md'
+          ignore: node_modules
+          version: 0.28.1
