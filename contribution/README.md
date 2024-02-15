@@ -33,3 +33,4 @@ o!TR maintainers of all projects are expected to adhere to the following practic
 * Always approve or request changes on PRs where you are assigned as a reviewer in a timely fashion. PRs that have a reviewer assigned but with no feedback from said reviewer should never be merged.
 * Always link to any issues that PRs address. Adding a line such as `closes #12` is sufficient.
 * Always resolve all conversations in a PR before merging.
+* If marked as an assignee to a PR, you are allowed to merge it. Do not merge PRs where you are not an assignee. The PR creator is expected to add at least one assignee. Feel free to self-assign your PRs, or add another assignee as you deem appropriate. Self-assigning is especially useful when your PR still needs work to avoid accidental merges from other maintainers.
