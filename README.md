@@ -1,5 +1,5 @@
 # osu! Tournament Rating (o!TR)
-A fully-featured rating system for osu! tournaments.
+A fully-featured rating system & data visualization suite for osu! tournaments.
 
 ## Contents:
 
