@@ -3,13 +3,14 @@
 Please keep in mind that the o!TR team has final judgment on whether a tournament or match is deemed fair for rating use, but we will work by the following principles and make judgments in good faith.
 
 ## Which match links should I include from the tournament?
-Do not include qualifiers or tryouts, but do include all matches from group and bracket stages. Make sure the tournament has fully concluded. Do not worry about filtering out for warmups, but try to double check that you're not submitting empty match links or showmatches. Removing bad data before submitting helps us significantly.
+Do not include qualifiers or tryouts, but do include all matches from group and bracket stages. Make sure the tournament has fully concluded. Do not worry about filtering out for warmups, but please double check that you're not submitting empty match links, showmatches, or asynchronous matches. Removing bad data before submitting helps us significantly.
 
 ## What constitutes an acceptable tournament or match?
-Tournaments must be at least RO16 single elimination, have concluded all play, and should adhere to the [official support documentation](https://osu.ppy.sh/wiki/en/Tournaments/Official_support#tournaments). We do not require all tournaments to be badge-eligible, nor do they need to adhere to all provisions in that wiki. Tournaments must have the following, at a minimum:
+Tournaments must be at least RO16 single elimination or RO8 double elimination, have concluded all play, and adhere to the [official support documentation](https://osu.ppy.sh/wiki/en/Tournaments/Official_support#tournaments). We do not require all tournaments to be badge-eligible, nor do they need to adhere to all provisions in that wiki. Tournaments must have the following, at a minimum:
 * Document all match data to an acceptable standard (preferably on a public Google sheet).
 * Not have significant lapses in data, such as full rounds missing. Exceptions are made for very old tournaments for the sake of preservation, but modern tournaments will generally be skipped if any rounds are missing.
 * Though not to the same degree as badging standards, be organized to an acceptable standard. For example, tournaments with obvious rigging are not included, even if the matches themselves are fair. So long as things are "generally competitively sound," we will generally favor including it.
+* Again not to the same degree as badging standards, target an acceptably competitive range of players. For example, tournaments restricted to ranks 200,000 or worse, or regional tournaments restricted to ranks 100,000 or worse, may not be accepted due to the prevalence of isolated players who do not play in other tournaments.
 * Have a forum post or wiki page on the osu! website.
 
 To keep the match cost formula sensible, maps with non-standard win conditions (Tag, Relax, ScoreV1, Accuracy) will not be included in rating calculations, so only submit tournaments with **ScoreV2** as the primary win condition. Tournaments with varying team sizes (e.g. [Tayuno's Standout Cup](https://osu.ppy.sh/community/forums/topics/1492360?n=1)) or battle-royale formats (e.g. [osu! Battle Royale 5](https://osu.ppy.sh/community/forums/topics/1502313?n=1)) should also not be submitted.
