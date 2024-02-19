@@ -7,6 +7,7 @@ There are two distinct types of scopes, user scopes and client scopes.
 
 Currently, endpoints are *not* documented publicly, so this knowledge is relatively useless without a deep understanding of how the API works.
 
+Note: Scopes indicated as default are not stored as a scope in the database, they are applied directly when making the encrypted access tokens.
 
 ## User Scopes
 
@@ -14,9 +15,9 @@ The following scopes are possible to grant to users. They are listed in order of
 
 As the website is currently closed to the public, both the current state of the default role and the intended state are documented.
 
-- *default*: No access.
+- `user` *default*: No access.
 - `whitelist`: Grants access to the website during the whitelist-only pre-alpha feedback phase.
-- *default (after pre-alpha phase)*: (After pre-alpha phase ends) Grants general user access to typical endpoints such as `/leaderboard`, `/me`, `/dashboard`, etc. Made available to all users by default.
+- `user` *default (after pre-alpha phase)*: Grants general user access to typical endpoints such as `/leaderboard`, `/me`, `/dashboard`, etc. Made available to all users by default.
 - `submit`: Allows users to submit matches using the match submission form.
 - `verifier`: Allows users with `Submit` to force mark these matches as `verified`, bypassing the manual approval waiting period for normal submissions.
 - `admin`: Allows users access to the admin panel, and generally access to all read/write functions made available on the website.
@@ -25,5 +26,5 @@ As the website is currently closed to the public, both the current state of the 
 
 The following scopes are made available to third-party OAuth clients.
 
-- *default*: Has access to publicly available data.
+- `client` *default*: Has access to publicly available data.
 - `system`: Reserved specifically for the `otr-processor` tool. Grants full read/write API access.
