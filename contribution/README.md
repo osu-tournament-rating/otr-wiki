@@ -38,4 +38,4 @@ o!TR maintainers of all projects are expected to adhere to the following practic
 
 ### Recognition
 
-Staff members, developers, QA testers, and anyone with significant contributions to the o!TR project are recognized in our [contributors list](contributors.md). We appreciate all those who contribute to making this project a reality!
+Staff members, developers, QA testers, and anyone with significant contributions to the o!TR project are recognized in our [contributors list](contributors/en.md). We appreciate all those who contribute to making this project a reality!

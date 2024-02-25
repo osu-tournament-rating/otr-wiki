@@ -7,6 +7,5 @@ If you encounter errors in this documentation or in the API, please check the [i
 
 ## Table of Contents
 [Changelog](changelog/en.md)\
-[Scopes](scopes.md)\
 [Object Structure](objects/en.md)\
 [Matches](endpoints/matches/en.md)
