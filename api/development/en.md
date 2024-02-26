@@ -13,7 +13,7 @@ The following dependencies are required to be installed for building the API.
 
 ### Setting up a PostgreSQL Container
 
-The API requires a valid PostgreSQL connection to function. The easiest way to accomplish this is through [Docker](https://www.docker.com/). Be sure to fill in the relevant fields denoted `<var_name>`.
+The API requires a valid PostgreSQL connection to function. The easiest way to accomplish this is through [Docker](https://www.docker.com/).
 
 ```sh
 # Pull the latest PostgreSQL image
