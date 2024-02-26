@@ -9,24 +9,21 @@ Request\
 
 Query Parameters\
 `verified` boolean *optional*\
-Setting this to true will verify that the `submitterid` is an ( **ADMIN** ) user. Will result in a 401 if not
+Setting `verified` to `true` will assert that the `submitterId` has the ( **verifier** ) scope
 
 Body Parameters\
 See [TournamentWebSubmission](/api/objects/en.md#tournamentwebsubmission)
-
-Response Format\
-HTTP Response ( 200 | 400 | 401 )
 
 Example Request
 ```js
 const requestBody = JSON.stringify({
   "name": "5 Digit World Cup",
   "abbreviation": "5WC",
-  "forumpost": "https://osu.ppy.sh/community/forums/topics/1874523",
-  "rankrangelowerbound": 10000,
+  "forumPost": "https://osu.ppy.sh/community/forums/topics/1874523",
+  "rankRangeLowerBound": 10000,
   "mode": 0,
-  "teamsize": 8,
-  "submitterid": 18068913,
+  "teamSize": 8,
+  "submitterId": 18068913,
   "ids": [18068913, 18068914, 18068915, ...],
 });
 
@@ -45,9 +42,6 @@ Marks all matches as needing automation checks
 
 Request\
 ( **POST** ) `/matches/refresh/automations`
-
-Response Format\
-Http Response ( 200 | 401 )
 
 ---
 
@@ -121,14 +115,11 @@ Request\
 ( **POST** ) `/matches/duplicate`
 
 Query Parameters\
-`rootid` string\
+`rootId` string\
 The root match id
 
-`confirmedduplicate` boolean\
+`confirmedDuplicate` boolean\
 Whether the match is confirmed or denied as a duplicate
-
-Response Format\
-Http Response ( 200 | 400 | 401 )
 
 ---
 
@@ -141,7 +132,7 @@ Request\
 ( **GET** ) `/matches/player/{osuid}`
 
 URL Parameters\
-`osuid` integer\
+`osuId` integer\
 The osu! id of the target player
 
 Response Format\
@@ -149,17 +140,17 @@ Returns [Match](/api/objects/en.md#match)[]
 
 ---
 
-### Get osu! Match Id From otr Match Id
+### Get osu! Match Id From o!TR Match Id
 
 ( **ADMIN** )
-Get the osu! match id searching by otr match id
+Get the osu! match id searching by o!TR match id
 
 Request\
 ( **GET** ) `/matches/{id}/osuid`
 
 URL Parameters\
 `id` integer\
-The target otr match id
+The target o!TR match id
 
 Response Format
 | Field | Type |
@@ -170,8 +161,8 @@ Response Format
 
 ### Get Match Id Mapping
 
-( **PUBLIC** ) ??\
-Get the unique mapping of otr match id to osu! match id
+( **PUBLIC** )\
+Get the unique mapping of o!TR match id to osu! match id
 
 Request\
 ( **GET** ) `/matches/id-mapping`
