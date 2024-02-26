@@ -13,7 +13,7 @@
       <a href="algorithm/tournaments.md">FAQ</a> • 
       <a>Glossary</a></br>
       <a href="https://twitter.com/osu_tr">Twitter</a> • 
-      <a href="">Discord</a> • 
+      <a href="https://discord.gg/R53AwX2tJA">Discord</a> • 
       <a href="https://github.com/osu-tournament-rating">Github</a> • 
       <a href="https://otr.stagec.xyz/unauthorized">Website</a>
       </br></br>
