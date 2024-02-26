@@ -5,7 +5,7 @@
       <b>osu! Tournament Rating (o!TR)</b></br></br>
       Welcome to the official o!TR wiki!</br>
       o!TR is a fully-featured rating system & data visualization suite for osu! tournaments.</br></br>
-      In this wiki you can find detailed documentations on all of the software that make up this platform, as well as important articles and guides that aim to help understand how to use the platform!</br></br>
+      In this wiki you can find information about all of the tools that make up o!TR. We also host important articles, guides and resources that aim to help users understand how to use the platform.</br></br>
       FAQ • Glossary</br>
       Twitter • Discord • Github • Website
       </br></br>
@@ -24,7 +24,7 @@
     </td>
     <td align="center" width="400">
       </br><b>Website</b></br></br>
-      The o!TR website is the main access point of the platform (blah)(blah)(blah)(blah)(blah)(blah)
+      The [o!TR website](https://otr.stagec.xyz/unauthorized) is the official user-facing application in which you can seamlessly access your dashboard, player profiles, tournament information, and more! *Currently in a pre-release, whitelist only phase.*
       </br></br>
     </td>
   </tr>

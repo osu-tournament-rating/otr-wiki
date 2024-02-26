@@ -2,7 +2,7 @@
 
 ### Submit Matches for Verification
 ( **PUBLIC** )\
-Submit a tournament and it's matches to be verified for rating calculation
+Submit a tournament and associated matches to be verified for rating calculation
 
 Request\
 ( **POST** ) `/matches/batch`
@@ -15,7 +15,7 @@ Body Parameters\
 See [TournamentWebSubmission](/api/objects/en.md#tournamentwebsubmission)
 
 Response Format\
-Http Response ( 200 | 400 | 401 )
+HTTP Response ( 200 | 400 | 401 )
 
 Example Request
 ```js
@@ -30,7 +30,7 @@ const requestBody = JSON.stringify({
   "ids": [18068913, 18068914, 18068915, ...],
 });
 
-fetch("https://api.otr.xyz/matches/batch", {
+fetch("https://api.otr.stagec.xyz/matches/batch", {
   method: "POST",
   body: requestBody,
 });
