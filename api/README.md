@@ -8,4 +8,4 @@ If you encounter errors in this documentation or in the API, please check the [i
 ## Table of Contents
 [Changelog](changelog/en.md)\
 [Object Structure](objects/en.md)\
-[Matches](endpoints/matches/en.md)
+[Endpoints](endpoints/README.md)
