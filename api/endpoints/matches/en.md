@@ -52,10 +52,8 @@ Returns a list of all verified match ids
 Request\
 ( **GET** ) `/matches/ids`
 
-Response Format
-| Field | Type |
-| ----- | ---- |
-| { ? } | integer[] |
+Response Format\
+Returns integer[]
 
 ---
 
@@ -146,10 +144,8 @@ URL Parameters\
 `id` integer\
 The target o!TR match id
 
-Response Format
-| Field | Type |
-| ----- | ---- |
-| { ? } | integer |
+Response Format\
+Returns integer
 
 ---
 

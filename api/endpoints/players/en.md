@@ -55,10 +55,8 @@ URL Parameters\
 `osuId` integer\
 The osu! id of the target player
 
-Response Format
-| Field | Type |
-| ----- | ---- |
-| { ? } | integer |
+Response Format\
+Returns integer
 
 ---
 
@@ -73,10 +71,8 @@ URL Parameters\
 `id` integer\
 The id of the target player
 
-Response Format
-| Field | Type |
-| ----- | ---- |
-| { ? } | integer |
+Response Format\
+Returns integer
 
 ---
 
