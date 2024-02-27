@@ -33,10 +33,10 @@ Optional fields:
 | Field     | Type     | Description |
 | :-------- | :------- | :---------- |
 | averageTeammateRating | float | The average rating of the player's teammates during the period. This average does not include the player's own rating |
-| averateOpponentRating | float | The average rating of the player's opponents during the period |
+| averageOpponentRating | float | The average rating of the player's opponents during the period |
 | mostPlayedTeammateName | string | The name of the teammate played with the most during the given period |
 | mostPlayedOpponentName | string | The name of the opponent played against the most during the given period |
-| bestTeammateName | string | The name of the teamamate who held the highest rating during the given period. If the period is looking to the present, this will be the teammate with the highest current rating |
+| bestTeammateName | string | The name of the teammate who held the highest rating during the given period. If the period is looking to the present, this will be the teammate with the highest current rating |
 
 ---
 
@@ -63,17 +63,50 @@ Represents general stats that are current and not time specific
 
 ---
 
+### Beatmap
+
+Represents a beatmap
+
+| Field     | Type     |
+| :-------- | :------- |
+| id | integer |
+| artist | string |
+| beatmapId | integer |
+| bpm | float |
+| mapperId | integer |
+| mapperName | string |
+| sr | float |
+| aimDiff | float |
+| speedDiff | float |
+| cs | float |
+| ar | float |
+| hp | float |
+| od | float |
+| drainTime | float |
+| length | float |
+| title | string |
+| diffName | string |
+| gameMode | integer |
+| circleCount | integer |
+| sliderCount | integer |
+| spinnerCount | integer |
+| maxCombo | integer |
+| created | timestamp |
+| games | [Game](#game)[] |
+
+---
+
 ### Game
 
-Represents a single game (map) played within a match
+Represents a single game played within a match
 
-| Field     | Type     | Description |
-| :-------- | :------- | :---------- |
+| Field     | Type     |
+| :-------- | :------- |
 | id | integer |
 | playMode | integer |
-| scoringType | integer | { I'm gonna go on a whim and assume this is an enum differing between sv1 or sv2 but I have no idea } |
-| teamType | integer | { Gonna assume this is team size? } |
-| mods | integer | osu! mod constant |
+| scoringType | integer |
+| teamType | integer |
+| mods | integer |
 | gameId | integer |
 | startTime | timestamp |
 | matchScores | [MatchScore](#matchscore)[] |
@@ -154,26 +187,71 @@ Represents a player
 
 | Field     | Type     |
 | :-------- | :------- |
-| username  | string   |
-| country   | string   |
+| username | string |
+| country | string |
+
+---
+
+### PlayerCountryMapping
+
+Represents the unique mapping of o!TR player id to osu! country code
+
+| Field     | Type     |
+| :-------- | :------- |
+| playerId | integer |
+| country | string |
+
+---
+
+### PlayerIdMapping
+
+Represents the unique mapping of o!TR player id to osu! player id
+
+| Field     | Type     |
+| :-------- | :------- |
+| id | integer |
+| osuId | integer |
+
+---
+
+### PlayerInfo
+
+Represents a player with additional info
+
+| Field     | Type     |
+| :-------- | :------- |
+| id  | integer |
+| osuId | integer |
+| username | string |
+| country | string |
 
 ---
 
 ### PlayerRanks
 
-{ Blank Description }
+Represents osu! rankings for a player
 
 | Field     | Type     |
 | :-------- | :------- |
-| id  | string   |
-| osuId   | string   |
+| id | integer |
+| osuId | integer |
 
 Optional fields:
 
 | Field     | Type     |
 | :-------- | :------- |
-| username  | string   |
-| country   | string   |
+| rankStandard | integer |
+| rankTaiko | integer |
+| rankCatch | integer |
+| rankMania | integer |
+| earliestOsuGlobalRank | integer |
+| earliestOsuGlobalRankDate | timestamp |
+| earliestTaikoGlobalRank | integer |
+| earliestTaikoGlobalRankDate | timestamp |
+| earliestCatchGlobalRank | integer |
+| earliestCatchGlobalRankDate | timestamp |
+| earliestManiaGlobalRank | integer |
+| earliestManiaGlobalRankDate | timestamp |
 
 ---
 
@@ -183,8 +261,8 @@ Optional fields:
 
 | Field     | Type     |
 | :-------- | :------- |
-| playerInfo  | [PlayerInfo](#PlayerInfo) |
-| baseStats   | [BaseStats](#BaseStats) |
+| playerInfo | [PlayerInfo](#PlayerInfo) |
+| baseStats | [BaseStats](#BaseStats) |
 | matchStats | [AggregatePlayerMatchStats](#AggregatePlayerMatchStats) |
 | modStats | [PlayerModStats](#PlayerModStats) |
 | frequentTeammates | [PlayerFrequency](#PlayerFrequency) |
@@ -199,8 +277,8 @@ Represents a tournament with basic format information
 
 | Field     | Type     |
 | :-------- | :------- |
-| name  | string   |
-| abbreviation   | string   |
+| name | string |
+| abbreviation | string |
 | forumUrl | string |
 | rankRangeLowerBound | integer |
 | mode | integer |
@@ -212,8 +290,8 @@ Represents a tournament submission
 
 | Field     | Type     | Description |
 | :-------- | :------- | --- |
-| name  | string   |
-| abbreviation   | string   |
+| name  | string |
+| abbreviation | string |
 | forumPost | string |
 | rankRangeLowerBound | integer |
 | mode | integer |
