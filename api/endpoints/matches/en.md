@@ -1,7 +1,8 @@
 # Matches
 
 ### Submit Matches for Verification
-( **PUBLIC** )\
+
+( **user** ) ( **submit** )\
 Submit a tournament and associated matches to be verified for rating calculation
 
 Request\
@@ -37,7 +38,6 @@ fetch("https://api.otr.stagec.xyz/matches/batch", {
 
 ### Refresh Automation Checks
 
-( **ADMIN** )\
 Marks all matches as needing automation checks
 
 Request\
@@ -47,7 +47,6 @@ Request\
 
 ### Get All Verified Match Ids
 
-( **ADMIN** )\
 Returns a list of all verified match ids
 
 Request\
@@ -60,9 +59,8 @@ Response Format
 
 ---
 
-### Get Match By Id
+### Get Match by Id
 
-( **ADMIN** )\
 Returns a match object by its id
 
 Request\
@@ -79,7 +77,7 @@ Returns [Match](/api/objects/en.md#match)
 
 ### Convert a List of Match Ids to Match Objects
 
-( **ADMIN** )\
+( **user** )\
 Converts a list of match ids to Match objects
 
 Request\
@@ -95,7 +93,6 @@ Returns [Match](/api/objects/en.md#match)[]
 
 ### Get All Duplicate Groups
 
-( **ADMIN** )\
 Retrieves all known duplicate match groups
 
 Request\
@@ -108,7 +105,6 @@ Returns [MatchDuplicateCollection](/api/objects/en.md#matchduplicatecollection)[
 
 ### Mark a Match as Duplicate
 
-( **ADMIN** )\
 Mark a match as a confirmed or denied duplicate of the root
 
 Request\
@@ -125,11 +121,10 @@ Whether the match is confirmed or denied as a duplicate
 
 ### Get All Matches for Player
 
-( **ADMIN** )\
 Get all matches the player was a part of
 
 Request\
-( **GET** ) `/matches/player/{osuid}`
+( **GET** ) `/matches/player/{osuId}`
 
 URL Parameters\
 `osuId` integer\
@@ -142,7 +137,6 @@ Returns [Match](/api/objects/en.md#match)[]
 
 ### Get osu! Match Id From o!TR Match Id
 
-( **ADMIN** )
 Get the osu! match id searching by o!TR match id
 
 Request\
@@ -159,15 +153,15 @@ Response Format
 
 ---
 
-### Get Match Id Mapping
+### Get All Match Id Mappings
 
-( **PUBLIC** )\
-Get the unique mapping of o!TR match id to osu! match id
+( **user** )\
+Get all unique mappings of o!TR match id to osu! match id
 
 Request\
 ( **GET** ) `/matches/id-mapping`
 
 Response Format\
-Returns [MatchIdMapping](/api/objects/en.md#matchidmapping)
+Returns [MatchIdMapping](/api/objects/en.md#matchidmapping)[]
 
 ---
