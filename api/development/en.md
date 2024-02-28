@@ -67,7 +67,7 @@ Clone the API and create a config file at `otr-api/API/appsettings.Development.j
 }
 ```
 
-#### ConnectionStrings
+#### Connection String
 
 The connection string format is as follows:\
 `"Server=<domain>;Port=<port>;User Id=<postgres_user>;Password=<postgres_password>;Include Error Detail=true;"`
