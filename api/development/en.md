@@ -16,10 +16,6 @@ The following dependencies are required to be installed for building the API.
 The API requires a connection to a PostgreSQL database in order to function. The easiest way to accomplish this is through a [Docker](https://www.docker.com/) container.
 
 ```sh
-# Pull the latest PostgreSQL image
-docker pull postgres
-
-# Create and run a container
 docker run -d -p 5432:5432 --name otr-postgres-dev -e POSTGRES_PASSWORD=<some_password> postgres
 ```
 
