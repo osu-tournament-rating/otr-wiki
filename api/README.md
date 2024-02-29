@@ -11,6 +11,7 @@ Wiki for the osu! Tournament Rating API
   </ol>
   <li>Usage</li>
   <ol>
+    <li><a href="usage/authorization/en.md">OAuth Client Authorization Flow</a></li>
     <li><a href="usage/scopes/en.md">API Scopes</a></li>
   </ol>
 </ol>
