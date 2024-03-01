@@ -24,7 +24,7 @@ These labels are shared across all software repositories.
 
 Labels specific to pull requests.
 
-* `pr:blocked` - Do not merge this.
+* `pr:blocked` - #ff0004 - Do not merge this.
 
 ### Misc
 
