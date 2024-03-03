@@ -10,7 +10,7 @@
       </br></br>
       In this wiki you can find information about all of the tools that make up o!TR. We also host important articles, guides and resources that aim to help users understand how to use the platform.
       </br></br>
-      <a href="algorithm/tournaments.md">FAQ</a> • 
+      <a href="algorithm/README.md">FAQ</a> • 
       <a>Glossary</a></br>
       <a href="https://twitter.com/osu_tr">Twitter</a> • 
       <a href="https://discord.gg/R53AwX2tJA">Discord</a> • 
