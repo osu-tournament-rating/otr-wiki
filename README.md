@@ -44,11 +44,11 @@
     <td align="center" width="400">
       <b>Algorithm</b>
       </br></br>
-      The rating system utilizes quite a bit of complex math to perform calculations. For those curious, we break down the process and rationale in detail.
+      The rating system makes use of some complicated mathematics to analyze tournament data. For those curious, we break down the process and describe the rationale here.
       </br></br>
       <a href="algorithm/README.md">General Theory</a> • 
       <a href="algorithm/ratings.md">Ratings</a> • 
-      <a href="algorithm/tournaments.md">How We Handle Tournaments</a>
+      <a href="algorithm/tournaments.md">Collecting Tournament Data</a>
       </br></br>
     </td>
     <td align="center" width="400">

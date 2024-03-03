@@ -172,7 +172,7 @@ Represents a collection of matches suspected of or confirmed to be duplicates of
 
 ### MatchIdMapping
 
-Represents a mapping of the otr match id to it's respective osu! match id
+Represents a mapping of the o!TR match id to its respective osu! match id
 
 | Field     | Type     |
 | :-------- | :------- |

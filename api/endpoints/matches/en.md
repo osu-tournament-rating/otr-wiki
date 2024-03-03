@@ -23,7 +23,7 @@ const requestBody = JSON.stringify({
   "forumPost": "https://osu.ppy.sh/community/forums/topics/1874523",
   "rankRangeLowerBound": 10000,
   "mode": 0,
-  "teamSize": 8,
+  "teamSize": 4,
   "submitterId": 18068913,
   "ids": [18068913, 18068914, 18068915, ...],
 });
