@@ -8,10 +8,17 @@ In order to use our API, you must familiarize yourself with our [usage limits](/
 - `clientId` - The id of your API client
 - `clientSecret` - The secret phrase assigned to your client.
 
-## Authorize
+## Generate Credentials
 
-Authorize your client by calling the [/oauth/token](/api/usage/endpoints/oauth/en.md#authorize-oauth-client) endpoint.
+Generate access credentials for your client by calling the [/oauth/token](/api/usage/endpoints/oauth/en.md#authorize-oauth-client) endpoint.
 
 ## Refresh
 
 When your API `accessToken` expires, you will need to refresh it using the `refreshToken`. See [/oauth/refresh](/api/usage/endpoints/oauth/en.md#refresh)
+
+## Authorization
+
+Always use the `accessToken` parameter in your `Authorization` header as such.
+
+Header: `Authorization`
+Value: `Bearer <accessToken>`
