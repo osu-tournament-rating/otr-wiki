@@ -6,9 +6,10 @@ The base URL is: `https://api.otr.stagec.xyz/`
 
 ## List of Documented Routes
 
-- [/beatmaps](./beatmaps/en.md)
-- [/matches](./matches/en.md)
-- [/players](./players/en.md)
+- [/beatmaps](/api/usage/endpoints/beatmaps/en.md)
+- [/matches](/api/usage/endpoints/matches/en.md)
+- [/oauth](/api/usage/endpoints/oauth/en.md)
+- [/players](/api/usage/endpoints/players/en.md)
 
 ## Accept Header
 
