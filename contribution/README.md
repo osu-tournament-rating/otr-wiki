@@ -35,3 +35,7 @@ o!TR maintainers of all projects are expected to adhere to the following practic
 * Always resolve all conversations in a PR before merging.
 * If marked as an assignee to a PR, you are allowed to merge it. Do not merge PRs where you are not an assignee. The PR creator is expected to add at least one assignee. Feel free to self-assign your PRs, or add another assignee as you deem appropriate. Self-assigning is especially useful when your PR still needs work to avoid accidental merges from other maintainers.
 * Always delete all temporary branches after they have been merged. Never delete branches named `master`, `staging`, or `develop`, as these are used for deployment.
+
+### Recognition
+
+Staff members, developers, QA testers, and anyone with significant contributions to the o!TR project are recognized in our [contributors list](contributors/en.md). We appreciate all those who contribute to making this project a reality!
