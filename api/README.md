@@ -10,6 +10,7 @@ If you encounter errors in this documentation or in the API, please check the [i
   <li>Development</li>
   <ol>
     <li><a href="development/setup/en.md">Setup</a></li>
+    <li><a href="development/styling/en.md">Code Styling</a></li>
   </ol>
   <li>Usage</li>
   <ol>
