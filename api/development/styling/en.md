@@ -18,4 +18,4 @@ dotnet format --severity info --verify-no-changes --verbosity detailed
 
 ## Pre-commit Hooks
 
-The codebase also utilizes [Husky](https://alirezanet.github.io/Husky.Net/guide/#features), a tool to locally run scripts before commits are made. The current setup will automatically run the above command on staged changes before any commit is made. If for any reason Husky should need to be disabled, set an environment variable `HUSKY=0` or include the flag `--no-verify` on any `git commit` command.
+The codebase also utilizes [Husky](https://alirezanet.github.io/Husky.Net/guide/#features), a tool to locally run scripts before commits are made. The current setup will automatically run the above command on staged changes before any commit is made. If for any reason Husky should need to be disabled, set an environment variable `HUSKY=0` or include the flag `--no-verify` on any `git commit` command. This assumes any staged changes are already correctly formatted and will cause a failure of the code quality CI check if not.
