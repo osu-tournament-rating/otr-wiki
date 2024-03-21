@@ -63,6 +63,10 @@ Clone the API and create a config file at `otr-api/API/appsettings.Development.j
     "WebLoginAuthSecret": "",
     "PrivilegedClientSecret": "",
     "ClientCallbackUrl": ""
+  },
+  "RateLimit": {
+    "PermitLimit": 30,
+    "Window": 60
   }
 }
 ```
