@@ -22,7 +22,7 @@ fetch("https://api.otr.stagec.xyz/api/v1/oauth/token?clientId=123&clientSecret=a
 ```
 
 Response Format\
-Returns [OAuth Response](/api/usage/objects/en.md#oauth-response)
+Returns [OAuth Response](/api/usage/objects/en.md#oauthresponse)
 
 ### Refresh
 
@@ -43,5 +43,5 @@ fetch("https://api.otr.stagec.xyz/api/v1/oauth/refresh?refreshToken=abcdefg", {
 ```
 
 Response Format\
-Returns [OAuth Response](/api/usage/objects/en.md#oauth-response), containing a new `accessToken`.
+Returns [OAuthResponse](/api/usage/objects/en.md#oauthresponse), containing a new `accessToken`.
 
