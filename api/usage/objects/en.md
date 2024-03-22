@@ -181,6 +181,16 @@ Represents a mapping of the o!TR match id to its respective osu! match id
 
 ---
 
+### OAuthResponse
+
+Represents a set of secrets used for Authorization. Produced after successful OAuth authentication.
+
+| Field     | Type     | Description |
+| :-------- | :------- | :---------- |
+| accessToken | string | This code is used to authorize requests. In all API requests, construct your `Authorization` header as such: `Authorization: Bearer <accessToken>` |
+| refreshToken | string | A code with a long expiry time that is used to generate a new [OAuthResponse](/api/usage/objects/en.md#oauthresponse) object, containing a new `accessToken` |
+| accessExpiration | integer | Expiration of the `accessToken` in seconds |
+
 ### Player
 
 Represents a player
