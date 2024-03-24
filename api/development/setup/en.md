@@ -37,6 +37,12 @@ With a fresh PostgreSQL database instance and other required frameworks installe
 
 Clone the API and create a config file at `otr-api/API/appsettings.Development.json`. Fill in the values from the `example.appsettings.json` template.
 
+#### Rate Limit
+
+The `PermitLimit` field is the default number of requests allotted to each authenticated user or client.
+
+The `Window` field represents the default ratelimit refresh period (in seconds).
+
 ```json
 {
   "Logging": {
@@ -60,9 +66,11 @@ Clone the API and create a config file at `otr-api/API/appsettings.Development.j
     "Audience": ""
   },
   "Auth": {
-    "WebLoginAuthSecret": "",
-    "PrivilegedClientSecret": "",
     "ClientCallbackUrl": ""
+  },
+  "RateLimit": {
+    "PermitLimit": 30,
+    "Window": 60
   }
 }
 ```
