@@ -17,6 +17,14 @@ Note: Contributors marked with a [ 💤 ] are considered to be inactive. While t
     <b>Stage</b></br>Lead, administrator, .NET & Rust developer, wiki maintainer
     </td>
     <td>
+      <a href="https://github.com/cytusine0">
+      <img src="https://github.com/cytusine0.png" alt="Cytusine" height="50" width="50">
+      </a>
+    </td>
+    <td>
+      <b>Cytusine</b></br>Administrator, mathematician, data entry, wiki maintainer
+    </td>
+    <td>
       <a href="https://github.com/AkinariHex">
         <img src="https://github.com/AkinariHex.png" alt="Akinari" height="50" width="50">
       </a>
@@ -24,23 +32,15 @@ Note: Contributors marked with a [ 💤 ] are considered to be inactive. While t
     <td width="250">
       <b>Akinari</b></br>Web developer
     </td>
-    <td>
+  </tr>
+  <tr>
+  <td>
       <a href="https://osu.ppy.sh/users/3958619">
         <img src="https://a.ppy.sh/3958619?1679275947.jpeg" alt="D I O" height="50" width="50">
       </a>
     </td>
     <td width="250">
       <b>D I O</b></br>Mathematician
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/cytusine0">
-      <img src="https://github.com/cytusine0.png" alt="Cytusine" height="50" width="50">
-      </a>
-    </td>
-    <td>
-      <b>Cytusine</b></br>Admin, mathematician, data entry, wiki maintainer
     </td>
     <td>
       <a href="https://bentokage.carrd.co/">
@@ -84,6 +84,7 @@ Note: Contributors marked with a [ 💤 ] are considered to be inactive. While t
     <td>
       <b>Myssto</b></br>.NET developer, wiki editor
     </td>
+  
   </tr>
   <tr>
     <td>
