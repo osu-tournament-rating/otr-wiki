@@ -14,14 +14,14 @@ Note: Contributors marked with a [ 💤 ] are considered to be inactive. While t
       </a>
     </td>
     <td width="250">
-    <b>Stage</b></br>Lead, administrator, .NET & Rust developer, wiki maintainer
+      <b>Stage</b></br>Lead, administrator, .NET & Rust developer, wiki maintainer
     </td>
     <td>
       <a href="https://github.com/cytusine0">
       <img src="https://github.com/cytusine0.png" alt="Cytusine" height="50" width="50">
       </a>
     </td>
-    <td>
+    <td width="250">
       <b>Cytusine</b></br>Administrator, mathematician, data entry, wiki maintainer
     </td>
     <td>
@@ -47,7 +47,7 @@ Note: Contributors marked with a [ 💤 ] are considered to be inactive. While t
       <img src="https://images-ext-1.discordapp.net/external/luYLkgQCEZfFHVn07F5GhBLauQzMNpxNq7EEMktnH8I/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/921042129076252752/9f09dd79cbe61f1d35acb75c4f45f545.webp?format=webp" alt="bento" height="50" width="50">
       </a>
     </td>
-    <td>
+    <td width="250">
       <b>bento</b></br>Quality assurance
     </td>
     <td>
@@ -55,7 +55,7 @@ Note: Contributors marked with a [ 💤 ] are considered to be inactive. While t
       <img src="https://a.ppy.sh/18618027?1708613363.png" alt="starlightof" height="50" width="50">
       </a>
     </td>
-    <td>
+    <td width="250">
       <b>starlightof</b></br>Web design
     </td>
   </tr>
@@ -65,7 +65,7 @@ Note: Contributors marked with a [ 💤 ] are considered to be inactive. While t
       <img src="https://github.com/S1n1st3rn3ss.png" alt="Chiffa" height="50" width="50">
       </a>
     </td>
-    <td>
+    <td width="250">
       <b>Chiffa</b></br>Rust developer
     </td>
     <td>
@@ -73,7 +73,7 @@ Note: Contributors marked with a [ 💤 ] are considered to be inactive. While t
       <img src="https://a.ppy.sh/6892711?1672062590.jpeg" alt="LoPij" height="50" width="50">
       </a>
     </td>
-    <td>
+    <td width="250">
       <b>LoPij</b></br>Rust developer
     </td>
     <td>
@@ -81,7 +81,7 @@ Note: Contributors marked with a [ 💤 ] are considered to be inactive. While t
       <img src="https://github.com/myssto.png" alt="Myssto" height="50" width="50">
       </a>
     </td>
-    <td>
+    <td width="250">
       <b>Myssto</b></br>.NET developer, wiki editor
     </td>
   
@@ -92,7 +92,7 @@ Note: Contributors marked with a [ 💤 ] are considered to be inactive. While t
       <img src="https://github.com/bugg86.png" alt="Convex" height="50" width="50">
       </a>
     </td>
-    <td>
+    <td width="250">
       <b>Convex</b></br>.NET developer, database monitoring
     </td>
     <td>
@@ -100,7 +100,7 @@ Note: Contributors marked with a [ 💤 ] are considered to be inactive. While t
       <img src="https://a.ppy.sh/11955929?1705272897.jpeg" alt="Timper" height="50" width="50">
       </a>
     </td>
-    <td>
+    <td width="250">
       <b>Timper</b></br>Quality assurance
     </td>
     <td>
@@ -108,7 +108,7 @@ Note: Contributors marked with a [ 💤 ] are considered to be inactive. While t
       <img src="https://a.ppy.sh/13269506?1685982739.png" alt="SourMongoose" height="50" width="50">
       </a>
     </td>
-    <td>
+    <td width="250">
       <b>SourMongoose</b></br>Outstanding data entry efforts
     </td>
   </tr>
@@ -149,7 +149,7 @@ Note: Contributors marked with a [ 💤 ] are considered to be inactive. While t
       <img src="https://a.ppy.sh/12058601?1701847977.png" alt="Squink" height="50" width="50">
       </a>
     </td>
-    <td>
+    <td width="250">
       <b>💤Squink</b></br>Research & development in early development stages
     </td>
     <td>
@@ -157,7 +157,7 @@ Note: Contributors marked with a [ 💤 ] are considered to be inactive. While t
       <img src="https://a.ppy.sh/7802400?1695597054.png" alt="ploot" height="50" width="50">
       </a>
     </td>
-    <td>
+    <td width="250">
       <b>💤ploot</b></br>Data entry
     </td>
   </tr>
@@ -188,7 +188,7 @@ Note: Contributors marked with a [ 💤 ] are considered to be inactive. While t
       <img src="https://a.ppy.sh/3521482?1616077824.png" alt="Willy" height="50" width="50">
       </a>
     </td>
-    <td>
+    <td width="250">
       <b>Willy</b>
     </td>
   </tr>
