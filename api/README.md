@@ -19,4 +19,8 @@ If you encounter errors in this documentation or in the API, please check the [i
     <li><a href="usage/endpoints/en.md">Endpoints</a></li>
     <li><a href="usage/objects/en.md">Response Objects</a></li>
   </ol>
+  <li>Maintenance</li>
+  <ol>
+    <li><a href="maintenance/database/en.md">Database</a></li>
+  </ol>
 </ol>
