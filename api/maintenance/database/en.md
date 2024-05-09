@@ -32,16 +32,14 @@ Production backups are automated via a script set to run every six hours (soon, 
 
 Backups are done with `pg_dump` and restores are done with `psql` as documented [here](https://www.postgresql.org/docs/current/backup-dump.html#BACKUP-DUMP).
 
-The following will backup the database as specified in our `docker-compose` files:
+Backup the database:
 
 ```sh
-docker exec db pg_dump -c -U postgres postgres | gzip > /my/dir/dump.gz
+docker exec [container] pg_dump -c -U postgres postgres | gzip > /my/dir/dump.gz
 ```
 
-To restore:
+Restore the database:
 
 ```sh
-gunzip -c /my/dir/dump.gz | docker exec -i db psql -U postgres postgres 
+gunzip -c /my/dir/dump.gz | docker exec -i [container] psql -U postgres postgres 
 ```
-
-If the database instance is not running in docker, ignore the `docker exec` command.
