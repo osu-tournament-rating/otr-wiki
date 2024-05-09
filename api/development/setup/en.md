@@ -13,23 +13,7 @@ The following dependencies are required to be installed for building the API.
 
 ### Setting up a PostgreSQL Database
 
-The API requires a connection to a PostgreSQL database in order to function. The easiest way to accomplish this is through a [Docker](https://www.docker.com/) container.
-
-```sh
-docker run -d -p 5432:5432 --name otr-postgres-dev -e POSTGRES_PASSWORD=<some_password> postgres
-```
-
-### Using the o!TR Demo Database
-
-*Note: The o!TR Demo Database is not available to the public at this time. This document will be updated once we have a public resource.*
-
-```sh
-# Copy the SQL file to the container
-docker cp demodb.sql <container_name_or_id>:/demodb.sql
-
-# Execute the SQL file with psql
-docker exec -it <container_name_or_id> psql -U postgres -d postgres -f /demodb.sql
-```
+Follow [this guide](/api/maintenance/database/en.md) to setup your local database. Make sure this docker container is always running before you launch the API.
 
 ### Configuring the API
 
