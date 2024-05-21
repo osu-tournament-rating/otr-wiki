@@ -50,7 +50,7 @@ Restore the database:
 > docker exec -it [container] psql -U postgres -c "DROP SCHEMA public CASCADE;" postgres 
 > ```
 >
-> 2. Create the `public schema`:
+> 2. Create the `public` schema:
 >
 > ```sh
 > docker exec -it [container] psql -U postgres -c "CREATE SCHEMA public;" postgres 
