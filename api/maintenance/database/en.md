@@ -42,6 +42,22 @@ docker exec [container] pg_dump -c -U postgres postgres | gzip > /my/dir/dump.gz
 
 Restore the database:
 
+> NOTE: If you already have a populated database and are encountering errors, run the following. This is strongly recommended regardless of whether you get errors to ensure a clean import.
+> 
+> 1. Remove the `public` schema:
+>
+> ```sh
+> docker exec -it [container] psql -U postgres -c "DROP SCHEMA public CASCADE;" postgres 
+> ```
+>
+> 2. Create the `public schema`:
+>
+> ```sh
+> docker exec -it [container] psql -U postgres -c "CREATE SCHEMA public;" postgres 
+> ```
+
+Overwrite your database with the dump:
+
 ```sh
 gunzip -c /my/dir/dump.gz | docker exec -i [container] psql -U postgres postgres 
 ```
