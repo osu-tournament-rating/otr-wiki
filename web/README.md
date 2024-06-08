@@ -10,6 +10,5 @@ If you believe there is something wrong with the website or you would like to re
   <li>Development</li>
   <ol>
     <li><a href="development/setup/en.md">Setup</a></li>
-    <li><a href="development/usage/en.md">Usage</a></li>
   </ol>
 </ol>
