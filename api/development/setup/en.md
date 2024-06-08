@@ -1,4 +1,4 @@
-# Development
+# o!TR API Setup
 
 This document serves as a guide on how to setup a local development environment for the o!TR API.
 
@@ -7,9 +7,14 @@ This document serves as a guide on how to setup a local development environment 
 The following dependencies are required to be installed for building the API.
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
-- [Entity Framework Core 8](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore)
 
 ## Setup
+
+### Install Entity Framework
+
+```
+dotnet tool install --global dotnet-ef
+```
 
 ### Setting up a PostgreSQL Database
 
