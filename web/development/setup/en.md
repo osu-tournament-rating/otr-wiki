@@ -6,7 +6,7 @@ o!TR Web depends on the API for all web requests. By extension, the database wil
 
 - [o!TR API Setup](/api/development/setup/en.md)
 - [o!TR Database Setup](/api/maintenance/database/en.md)
-- [Node.js](https://nodejs.org/en)
+- [Node.js](https://nodejs.org/en) (v21 or later)
 
 ## Environment Configuration
 
