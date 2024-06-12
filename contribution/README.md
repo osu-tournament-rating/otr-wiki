@@ -20,3 +20,10 @@ If your topic is broad in scope, we encourage the usage of discussions instead o
 ### Recognition
 
 Staff members, developers, QA testers, and anyone with significant contributions to the o!TR project are recognized in our [contributors list](contributors/en.md). We appreciate all those who contribute to making this project a reality!
+
+## Table of Contents
+
+<ol type="1">
+  <li><a href="contributors/en.md">Contributors</a></li>
+  <li><a href="submissions/en.md">Tournament submissions</a></li>
+</ol>

@@ -42,13 +42,13 @@
   </tr>
   <tr>
     <td align="center" width="400">
-      <b>Algorithm</b>
+      <b>Algorithm & Submissions</b>
       </br></br>
       The rating system makes use of some complicated mathematics to analyze tournament data. For those curious, we break down the process and describe the rationale here.
       </br></br>
-      <a href="algorithm/README.md">General Theory</a> • 
-      <a href="algorithm/ratings.md">Ratings</a> • 
-      <a href="algorithm/tournaments.md">Collecting Tournament Data</a>
+      <a href="algorithm/foundation/en.md">General Theory</a> • 
+      <a href="algorithm/ratings/en.md">Ratings</a> • 
+      <a href="/contribution/submissions/en.md">Tournament Submission Criteria</a>
       </br></br>
     </td>
     <td align="center" width="400">
