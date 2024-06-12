@@ -27,6 +27,7 @@ In general, tournaments that include any non-standard procedures like asynchrono
 Please keep the following in mind for osu!mania tournaments:
 
 - **Only 4k and 7k** osu!mania tournaments are accepted.
+- Tournaments that feature more than one key count should not be submitted.
 
 ## Should different tiers or divisions of a tournament go in the same submission?
 
