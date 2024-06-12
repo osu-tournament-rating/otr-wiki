@@ -22,6 +22,12 @@ Besides this, tournaments which **do not allow players to play at their full com
 
 In general, tournaments that include any non-standard procedures like asynchronous matches or make any use of the gimmicks listed above will be subject to much higher scrutiny before acceptance.
 
+### osu!mania
+
+Please keep the following in mind for osu!mania tournaments:
+
+- **Only 4k and 7k** osu!mania tournaments are accepted.
+
 ## Should different tiers or divisions of a tournament go in the same submission?
 
 Carefully check how the forum post defines 'tier'. Tiered tournaments where people of different rank ranges play together, like [Broccoli Cup 3](https://osu.ppy.sh/community/forums/topics/1829892?n=1), should be submitted as a single tournament. When submitting, put the best rank range as the rank restriction (750 for Broccoli Cup 3). On the other hand, forum posts with multiple brackets for different regions or rank ranges, like [Dio's Autumn Singles](https://osu.ppy.sh/community/forums/topics/1086855?n=1) or [5WC Major / Minor League](https://osu.ppy.sh/community/forums/topics/1541806?n=1), should have each bracket submitted as a different tournament. The general rule here is: **one submission per bracket.**
