@@ -25,5 +25,5 @@ Staff members, developers, QA testers, and anyone with significant contributions
 
 <ol type="1">
   <li><a href="contributors/en.md">Contributors</a></li>
-  <li><a href="submissions/en.md">Tournament submissions</a></li>
+  <li><a href="submissions/en.md">Tournament Submissions</a></li>
 </ol>

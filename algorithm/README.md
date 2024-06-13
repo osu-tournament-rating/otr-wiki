@@ -6,5 +6,5 @@ This section covers the o!TR algorithm and general theory behind the project.
 
 <ol type="1">
   <li><a href="foundation/en.md">What is o!TR?</a></li>
-  <li><a href="foundation/en.md">Rating Calculation FAQ</a></li>
+  <li><a href="ratings/en.md">Rating Calculation FAQ</a></li>
 </ol>
