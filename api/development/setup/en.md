@@ -24,7 +24,7 @@ Follow [this guide](/api/maintenance/database/en.md) to setup your local databas
 
 With a fresh PostgreSQL database instance and other required frameworks installed, the API can now be built and configured.
 
-Clone the API and create a config file at `otr-api/API/appsettings.Development.json`. Fill in the values from the `example.appsettings.json` template.
+Clone the API and create a config file at `otr-api/API/appsettings.Development.json`. Fill in the values from the [`example.appsettings.json` template](https://github.com/osu-tournament-rating/otr-api/blob/master/API/example.appsettings.json).
 
 #### Rate Limit
 
@@ -32,41 +32,9 @@ The `PermitLimit` field is the default number of requests allotted to each authe
 
 The `Window` field represents the default ratelimit refresh period (in seconds).
 
-```json
-{
-  "Logging": {
-    "LogLevel": {
-      "Default": "Trace",
-      "Microsoft.AspNetCore": "Warning"
-    }
-  },
-  "ConnectionStrings": {
-    "DefaultConnection": ""
-  },
-  "Osu": {
-    "ApiKey": "",
-    "ClientId": "",
-    "ClientSecret": "",
-    "AutoUpdateUsers": false,
-    "AllowDataFetching": false
-  },
-  "Jwt": {
-    "Key": "",
-    "Audience": ""
-  },
-  "Auth": {
-    "ClientCallbackUrl": ""
-  },
-  "RateLimit": {
-    "PermitLimit": 30,
-    "Window": 60
-  }
-}
-```
+#### Connection Strings
 
-#### Connection String
-
-The connection string format is as follows:\
+The default connection string format is as follows:\
 `"Server=<domain>;Port=<port>;User Id=<postgres_user>;Password=<postgres_password>;Include Error Detail=true;"`
 
 An example connection string for local development would look like:\
