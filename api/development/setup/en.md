@@ -68,7 +68,7 @@ Currently the configuration requires both an osu! API v1 key and v2 OAuth2 crede
 #### Auth
 
 - `Auth.ClientCallbackUrl` is the local route that osu! will redirect users to. This should be set to `http://localhost:3000/auth`. It is only required to be set if the `otr-web` project is also being tested with this API. Your osu! API v2 client must have this URL as a redirect URL.
-- `Auth.EnforceWhitelist` decides whether the API should block all incoming requests from users who do not have the `whitelist` [scope](/api/scopes/en.md). We recommend leaving this as `false` in development. It will eventually be removed once o!TR exits private alpha.
+- `Auth.EnforceWhitelist` denotes whether the API should block all incoming requests from users who do not have the `whitelist` [scope](/api/scopes/en.md). We recommend leaving this as `false` in development. It will eventually be removed once o!TR exits private alpha.
 
 #### Rate Limit
 
