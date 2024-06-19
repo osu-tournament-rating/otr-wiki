@@ -74,7 +74,9 @@ An example connection string for local development would look like:\
 
 #### Osu
 
-Currently the configuration requires both an osu! API v1 key and v2 OAuth2 credentials, however the use of the v1 API will be phased out very soon. When creating the OAuth2 client, the redirect URL is optional. If testing alongside `otr-web`, set the redirect URL to `http://localhost:3000/auth`.
+In order to use any osu! API features, you will need to create an [osu!](https://osu.ppy.sh/) account. You may manage your osu! API clients on your [account settings page](https://osu.ppy.sh/home/account/edit#oauth).
+
+Currently, the configuration requires both an osu! API v1 key and v2 OAuth credentials, however the use of the v1 API will be phased out very soon. When creating the OAuth2 client on osu!'s website, the redirect URL is optional. If testing with `otr-web`, set the redirect URL to `http://localhost:3000/auth`.
 
 #### Jwt
 
